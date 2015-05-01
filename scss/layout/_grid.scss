@@ -1,0 +1,26 @@
+.wrapper {
+    padding: 1em;
+    width: 95%;
+}
+
+.flex-container {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 100%;
+}
+        
+.flex-item {
+    flex-grow: 2;
+    flex-shrink: 0;
+    flex-basis: 200px;
+    margin: 0 1em 1em 0;
+}
+
+.title {
+    text-align: center;
+    flex-basis: 100%;
+}

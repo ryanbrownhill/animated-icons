@@ -1,0 +1,26 @@
+{
+  "name": "animated-icons",
+  "version": "0.0.0",
+  "homepage": "https://github.com/ryanbrownhill/animated-icons",
+  "authors": [
+    "ryanbrownhill <ryanbrownhill@gmail.com>"
+  ],
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals",
+    "node",
+    "yui"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "sass-toolkit": "~2.9.0"
+  }
+}
