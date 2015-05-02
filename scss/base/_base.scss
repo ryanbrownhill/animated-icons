@@ -1,19 +1,11 @@
 /**
  * Basic styling
  */
-html, body {
-	height: 100%;
-}
 
 body {
-    @extend %font-copy;
-	// font-size: $base-font-size;
-    // line-height: $base-line-height;
-    // color: $text-color;
-    background-color: $background-color;
-    // -webkit-text-size-adjust: 100%;
+	background-color: $background-color;
 }
 
 h1 {
-@extend %font-header
+	@extend %font-header
 }
