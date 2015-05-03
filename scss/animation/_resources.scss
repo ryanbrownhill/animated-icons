@@ -1,30 +1,30 @@
-.rectangle {
-    animation: rectangle 7s infinite ease-in;
-    transform-origin: 100% 0%;
-  }
+// .rectangle {
+//     animation: rectangle 7s infinite ease-in;
+//     transform-origin: 100% 0%;
+//   }
   
-  @for $i from 1 through 3 {
-    #rect#{$i} {
-      animation-delay: ($i * 1s);
-    }
-  }
+//   @for $i from 1 through 3 {
+//     #rect#{$i} {
+//       animation-delay: ($i * 1s);
+//     }
+//   }
 
 
 
-@keyframes rectangle {
-	0% {
-	transform: scale(1, 1);
-	}
-	50% {
-	transform: scale(0, 1);
-	}
-	51%{
-	transform-origin: 100% 0%;
-	}
-	52% {
-	transform-origin: 0% 100%;
-	}
-	100% {
-	transform: scale(1, 1);
-	}
-}
+// @keyframes rectangle {
+// 	0% {
+// 	transform: scale(1, 1);
+// 	}
+// 	50% {
+// 	transform: scale(0, 1);
+// 	}
+// 	51%{
+// 	transform-origin: 100% 0%;
+// 	}
+// 	52% {
+// 	transform-origin: 0% 100%;
+// 	}
+// 	100% {
+// 	transform: scale(1, 1);
+// 	}
+// }
