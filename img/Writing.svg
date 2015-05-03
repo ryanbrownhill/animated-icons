@@ -1,8 +1,66 @@
-<svg id="writing" width="38" height="32" viewBox="0 0 38 32" xmlns="http://www.w3.org/2000/svg">
+<svg id="writing" viewBox="0 0 38 32" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+<!-- <?xml-stylesheet type="text/css" href="../css/main.css"?> -->
+
+<style>
+
+.circle {
+  -webkit-animation: typing 3s infinite cubic-bezier(.57, .23, .13, 1.42);
+          animation: typing 3s infinite cubic-bezier(.57, .23, .13, 1.42);
+  -webkit-transform-origin: 50% 50%;
+      -ms-transform-origin: 50% 50%;
+          transform-origin: 50% 50%; }
+
+#circ1 {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s; }
+
+#circ2 {
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s; }
+
+#circ3 {
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s; }
+
+@-webkit-keyframes typing {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1; }
+
+  50% {
+    -webkit-transform: scale(.8);
+            transform: scale(.8);
+    opacity: .8; }
+
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1; } }
+
+@keyframes typing {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1; }
+
+  50% {
+    -webkit-transform: scale(.8);
+            transform: scale(.8);
+    opacity: .8; }
+
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1; } }
+
+
+
+</style>
     <g transform="translate(1 1)" stroke="#000" stroke-width="2" fill="none" fill-rule="evenodd">
         <path id="bubble" d="M35.8947368,23.4545455 L16,23.4545455 C15.7368421,23.4545455 15.4736842,23.5606061 15.2631579,23.7727273 L9.57894737,29.3939394 L9.57894737,24.5151515 C9.57894737,23.9318182 9.10526316,23.4545455 8.52631579,23.4545455 L0.105263158,23.4545455 L0.105263158,0.121212121 L35.8947368,0.121212121 L35.8947368,23.4545455 L35.8947368,23.4545455 Z" stroke-linejoin="round" />
-        <circle id="circ1" cx="28.368" cy="12.39" r="2.526" />
-        <circle id="circ2" cx="17.947" cy="12.39" r="2.526" />
-        <circle id="circ3" cx="7.526" cy="12.39" r="2.526" />
+        <circle class="circle" id="circ1" cx="28.368" cy="12.39" r="2.526" />
+        <circle class="circle" id="circ2" cx="17.947" cy="12.39" r="2.526" />
+        <circle class="circle" id="circ3" cx="7.526" cy="12.39" r="2.526" />
     </g>
 </svg>
