@@ -2,8 +2,6 @@
 <svg width="47px" height="49px" viewBox="0 0 47 49" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
 <style>
 
-
-
 .rectangle {
   -webkit-animation: rectangle 7s infinite ease-in;
           animation: rectangle 7s infinite ease-in;
