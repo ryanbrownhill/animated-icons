@@ -7,5 +7,6 @@ body {
 }
 
 h1 {
-	@extend %font-header
+	@extend %font-header;
+	color: $grey-4;
 }
