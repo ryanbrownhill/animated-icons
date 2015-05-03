@@ -7,6 +7,9 @@ body {
   background-color: #F7F7F7; }
 
 h1 {
+  color: #3B4C54; }
+
+h1 {
   font-family: 'Playfair Display', serif; }
 
 object {
@@ -66,64 +69,3 @@ html, body {
   -webkit-flex-basis: 100%;
       -ms-flex-preferred-size: 100%;
           flex-basis: 100%; }
-
-.rectangle {
-  -webkit-animation: rectangle 7s infinite ease-in;
-          animation: rectangle 7s infinite ease-in;
-  -webkit-transform-origin: 100% 0%;
-      -ms-transform-origin: 100% 0%;
-          transform-origin: 100% 0%; }
-
-#rect1 {
-  -webkit-animation-delay: 1s;
-          animation-delay: 1s; }
-
-#rect2 {
-  -webkit-animation-delay: 2s;
-          animation-delay: 2s; }
-
-#rect3 {
-  -webkit-animation-delay: 3s;
-          animation-delay: 3s; }
-
-@-webkit-keyframes rectangle {
-  0% {
-    -webkit-transform: scale(1, 1);
-            transform: scale(1, 1); }
-
-  50% {
-    -webkit-transform: scale(0, 1);
-            transform: scale(0, 1); }
-
-  51% {
-    -webkit-transform-origin: 100% 0%;
-            transform-origin: 100% 0%; }
-
-  52% {
-    -webkit-transform-origin: 0% 100%;
-            transform-origin: 0% 100%; }
-
-  100% {
-    -webkit-transform: scale(1, 1);
-            transform: scale(1, 1); } }
-
-@keyframes rectangle {
-  0% {
-    -webkit-transform: scale(1, 1);
-            transform: scale(1, 1); }
-
-  50% {
-    -webkit-transform: scale(0, 1);
-            transform: scale(0, 1); }
-
-  51% {
-    -webkit-transform-origin: 100% 0%;
-            transform-origin: 100% 0%; }
-
-  52% {
-    -webkit-transform-origin: 0% 100%;
-            transform-origin: 0% 100%; }
-
-  100% {
-    -webkit-transform: scale(1, 1);
-            transform: scale(1, 1); } }
