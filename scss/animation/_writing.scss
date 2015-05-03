@@ -1,34 +1,26 @@
-// #circ1 {
-// 	animation: typing 3s ease-in infinite;
-// 	transform-origin: 50% 50%;
+// .circle {
+//     animation: typing 3s infinite cubic-bezier(.57,.23,.13,1.42);
+//     transform-origin: 50% 50%;
+//   }
+  
+//   @for $i from 1 through 3 {
+//     #circ#{$i} {
+//       animation-delay: ($i * .2s);
+//     }
+//   }
+
+
+
+// @keyframes typing {
+// 	0% {
+// 	transform: scale(1);
+// 	}
+// 	50% {
+// 	transform: scale(.8);
+// 	}
+// 	100% {
+// 	transform: scale(1);
+// 	}
 // }
 
 
-.circle {
-    // transform: translateY(calc(100px - 50%));
-    animation: typing 3s infinite cubic-bezier(.57,.23,.13,1.42);
-    transform-origin: 50% 50%;
-  }
-  
-  @for $i from 1 through 3 {
-    #circ#{$i} {
-      animation-delay: ($i * .2s);
-    }
-  }
-
-
-
-@keyframes typing {
-	0% {
-	transform: scale(1);
-	opacity: 1;
-	}
-	50% {
-	transform: scale(.8);
-	opacity: .8;
-	}
-	100% {
-	transform: scale(1);
-	opacity: 1;
-	}
-}
